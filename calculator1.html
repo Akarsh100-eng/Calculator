@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <style>
+      body{
+        background-color : rgb(0, 0, 0);
+        color : white;
+       } 
+      [class="1"]{
+        width: 100px;
+        height: 100px;
+        font-size: 30px;
+        background-color : white;
+        color : black;}
+      [class="2"]{
+        width: 100px;
+        height: 100px;
+        font-size: 30px;
+        background-color : rgb(227, 82, 5);
+        color : white;}
+      [class="3"]{
+        width: 100px;
+        height: 100px;
+        font-size: 30px;
+        background-color : rgb(255, 0, 0);
+        color : white;}
+      [class="4"]{
+        width: 100px;
+        height: 100px;
+        font-size: 30px;
+        background-color : rgb(0, 0, 0);
+        color : white;}
+       </style>
+</head>
+<body>
+ <p></p> <button class="1" onclick="calculation += '1'; console.log(calculation);">1</button>
+  <button class="1" onclick="calculation += '2'; console.log(calculation);">2</button>
+  <button class="1" onclick="calculation += '3'; console.log(calculation);">3</button>
+<button class="2" onclick="calculation += '+'; console.log(calculation);">+</button></p>
+  <p><button class="1" onclick="calculation += '4'; console.log(calculation);">4</button>
+  <button class="1" onclick="calculation += '5'; console.log(calculation);">5</button>
+  <button class="1" onclick="calculation += '6'; console.log(calculation);">6</button>
+ <button class="2" onclick="calculation += '-'; console.log(calculation);">-</button></p>
+  <p><button class="1" onclick="calculation += '7'; console.log(calculation);">7</button>
+  <button class="1" onclick="calculation += '8'; console.log(calculation);">8</button>
+  <button class="1" onclick="calculation += '9'; console.log(calculation);">9</button>
+<button class="2" onclick="calculation += '*'; console.log(calculation);">*</button></p>
+  <p><button class="1" onclick="calculation += '0'; console.log(calculation);">0</button>
+  <button class="2" onclick="calculation += '.'; console.log(calculation);">.</button>
+  <button class="2" onclick="calculation += '/'; console.log(calculation);">/</button>  
+  <button class="3" onclick="calculation = calculation=eval(calculation);
+ console.log(alert(calculation));">=</button></p>
+ <button class="4" onclick="calculation = ''; console.log(calculation);">Clear</button>
+<script>
+ let calculation='';
+ 
+</script>
+</body>
+</html>
